@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Leckerli+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    overflow: clip;
+}
+
+.eclips1{
+    position: absolute;
+    top: -100px;
+    right: 0px;
+    transform: rotate(98.627deg);
+}
+
+.eclips1 svg{
+   
+    fill: #131AC4;
+    filter: blur(120px);
+}
+
+
+.eclips2{
+    position: absolute;
+    bottom: -150px;
+    left: -100px;
+    transform: rotate(98.627deg);
+}
+
+ svg{
+    stroke-width: 12px;
+    stroke: black;
+    position: relative;
+    width: 405.107px;
+    height: 503.5px;
+    fill: #131AC4;
+    filter: blur(120px);
+    z-index: 88;
+}
+
+.squares1 {
+    position: absolute;
+    top: 20%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+
+.squares2 {
+    display: flex;
+    gap: 40px;
+   position: absolute;
+    bottom: 0px;
+}
+
+.squares1 div , .squares2 div{
+    width: 40px;
+    height: 40px;
+    background-color: #131AC4;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.50);
+
+
+}
+
+.inner{
+    max-width: 74.75rem;
+    margin: 20px auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 0 ;
+}
+
+.header h1{
+    font-family: 'Leckerli One', cursive;
+
+
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    max-width: 48.188rem;
+    gap: 50px;
+}
+
+ul li{
+    list-style: none;
+    color: #000;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.inner-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about{
+    max-width: 46.5rem;
+}
+
+.about h1:nth-child(1){
+    color: #000;
+    font-family: Lato;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about h1:nth-child(2){
+    color: #050982;
+    font-family: Lato;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.about-p1{
+    color: #000;
+    font-family: Lato;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about-p{
+    color: #000;
+    font-family: Lato;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 40px 0;
+}
+
+.about button{
+    width: 223px;
+    height: 80px;
+    border-radius: 10px;
+    background: #03087B;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 348px;
+    height: 518px;
+    border-radius: 239.5px;
+    background: #6d71ec;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.50);
+
+}
+
+.image div{
+    width: 276px;
+    height: 430px;
+    background: url(./Imgaes/Danish_img.jpg), lightgray 50% 50%;
+    background-size:   cover;
+    background-repeat:  no-repeat ;
+    border-radius: 169.5px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.50);
+
+}
