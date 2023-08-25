@@ -8,7 +8,6 @@
 
 main{
     width: 100vw;
-    height: 100vh;
     overflow:hidden;
     overflow-x: hidden;
 }
@@ -198,4 +197,94 @@ ul li{
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+}
+
+
+
+.Projects{
+    padding-top: 50px;
+    max-width: 74.75rem;
+    margin: 150px auto;
+    border-top: #caccfb solid 5px;
+}
+
+.row{
+    display: flex;
+    gap: 10px;
+}
+
+.column1{
+    min-width: 40%;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.50);
+
+
+}
+
+.column2{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 40%;
+}
+
+.column2 div{
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.50);
+
+}
+
+.column2 div:nth-child(2) {
+    display: flex;
+    gap: 10px;
+}
+
+.column1 img, .column2 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.Projects h1:nth-child(1){
+    color: #000;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Projects h1:nth-child(2){
+    color: #050982;
+    font-family: Lato;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+
+.Contacts{
+    padding-top: 50px;
+    max-width: 74.75rem;
+    margin: 150px auto;
+    border-top: #caccfb solid 5px;
+}
+
+.Contacts h1:nth-child(1){
+    color: #000;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Contacts h1:nth-child(2){
+    color: #050982;
+    font-family: Lato;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 50px;
 }
