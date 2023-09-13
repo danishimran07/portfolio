@@ -9,6 +9,7 @@
 body{
     background: linear-gradient(67deg, rgba(178,181,246,1) 0%, rgba(246,246,246,1) 32%, rgba(246,246,246,1) 50%, rgba(178,181,246,1) 100%);
     background-attachment: fixed;
+    margin: 0;
 }
 
 
@@ -129,8 +130,8 @@ body{
 
 main{
     width: 100vw;
-    overflow:hidden;
-    overflow-x: hidden;
+    min-height: 100vh ;
+    
 }
 
 .squares1 {
@@ -363,31 +364,7 @@ ul li{
     margin-bottom: 50px;
 }
 
-.Contacts{
-    padding-top: 50px;
-    max-width: 74.75rem;
-    margin: 150px auto;
-    border-top: #caccfb solid 5px;
-}
 
-.Contacts h1:nth-child(1){
-    color: #000;
-    font-family: Lato;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.Contacts h1:nth-child(2){
-    color: #050982;
-    font-family: Lato;
-    font-size: 65px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    margin-bottom: 50px;
-}
 
 .section-2{
     background-color: #03077b71;
@@ -447,4 +424,178 @@ ul li{
     font-weight: 600;
     line-height: normal;
     margin-bottom: 10px;
+}
+
+
+
+.projrct-des{
+  display: flex;
+  max-width: 74.75rem;
+  margin: 50px auto;
+}
+
+.project-side{
+  display: flex;
+  justify-content: space-between;
+  padding:50px ;
+  margin-bottom: 30px;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.50), -8px -8px 12px 0 rgba(207, 203, 203, 0.852);
+  
+}
+
+.project-side img{
+  width: 100%;
+  height: 100%;
+}
+
+.project-side div:nth-child(1){
+  max-width: 45%;
+}
+
+.project-side div:nth-child(2){
+  max-width: 45%;
+}
+
+.indicator{
+  max-width: 0px;
+  background-color: #caccfb;
+}
+
+
+.project-side  p{
+  color: #000;
+    font-family: Lato;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.project-side h1{
+    color: #000;
+    font-family: Lato;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.project-side h4{
+    color: #050982;
+    font-family: Lato;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 10px 0;
+}
+
+.back-1{
+  background: white  ;
+  position: sticky;
+  top: 80px ;
+  height: 70vh;
+
+}
+
+.back-2{
+  background: white ;
+  flex-direction: row-reverse;
+  position: sticky;
+  top: 80px ;
+  height: 70vh;
+
+
+}
+
+.reverse{
+  
+}
+
+.par{
+  width: 100vw;
+  min-height: 100vh;
+}
+
+
+.cards{
+  width: 100vw;
+  background-color: #050982c1;
+  min-eight: 100vh;
+  
+}
+
+.stick{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  background-color: #e2d6d6a9;
+}
+
+.Contacts{
+  padding-top: 50px;
+  max-width: 74.75rem;
+  margin: 150px auto;
+  border-top: #caccfb solid 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper-contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social{
+  color: white;
+  width: 60px;
+  height: 60px;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+.cont-but{
+  background-color: #03087B;
+  color: white;
+  padding: 10px 30px ;
+  border-radius: 20px;
+  border: none;
+}
+
+.Contacts h1:nth-child(1){
+  color: #000;
+  font-family: Lato;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Contacts h1:nth-child(2){
+  color: #050982;
+  font-family: Lato;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 50px;
 }
