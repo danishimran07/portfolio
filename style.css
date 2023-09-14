@@ -546,31 +546,63 @@ ul li{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 50px;
+}
+
+.Contacts>h1{
+justify-self:flex-start;
+text-align: left;
 }
 
 .wrapper-contact{
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 
 .add{
+  width: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap:50px;
 }
 
-.social{
+.add div:nth-child(1), .add div:nth-child(2){
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+}
+
+.social, .social a{
   color: white;
   width: 60px;
   height: 60px;
-  background-color: #000;
+  background-color: ;
   border-radius: 50%;
+}
+
+
+.form{
+  min-width: 40%;
 }
 
 form{
   display: flex;
   flex-direction: column;
+}
+
+.form h1{
+  font-family: Lato;
+  font-size: 36px!important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .cont-but{
@@ -598,4 +630,39 @@ form{
   font-weight: 600;
   line-height: normal;
   margin-bottom: 50px;
+}
+
+
+input, textarea{
+    width: 100%;
+    height: 2.4rem!important;
+    border: none;
+    border-bottom: 1px solid #3893fe;
+    color: #000!important;
+    border-radius: 0;
+    font-size: .875rem;
+    background-color: transparent!important;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.625rem 0.5625rem;
+}
+
+textarea{
+  min-height: 100px;
+}
+
+.resume{
+    text-decoration: none;
+    color: #000;
+    font-family: Lato;
+    font-size: 28px;
+    font-style: normal;
+    padding: 20px 30px;
+    background-color:  #e7c902;
+    border-radius: 30px;
+}
+
+footer{
+  text-align: center;
+  padding: 50px;
+  background-color: #03077b71;
 }
