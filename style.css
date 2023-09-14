@@ -12,6 +12,9 @@ body{
     margin: 0;
 }
 
+html{
+  scroll-behavior: smooth;
+}
 
 
 
@@ -185,6 +188,7 @@ ul{
 }
 
 ul li{
+    
     list-style: none;
     color: #000;
     font-family: Lato;
@@ -192,6 +196,24 @@ ul li{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+li a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.res{
+  padding: 5px 25px;
+  background-color: #e7c902;
+  border-radius: 25px;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.50);
+  transition: padding 1s;
+
+}
+
+.res:hover{
+  padding: 5px 30px;
 }
 
 .inner-content{
@@ -254,6 +276,12 @@ ul li{
     font-weight: 400;
     line-height: normal;
     border: none;
+    cursor: pointer;
+    transition: width 0.5s;
+}
+
+.about button:hover{
+  width: 225px;
 }
 
 .image{
