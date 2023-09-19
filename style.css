@@ -7,7 +7,6 @@
 }
 
 body{
-  max-width: 100vw;
     height: auto;
     background: linear-gradient(67deg, rgba(178,181,246,1) 0%, rgba(246,246,246,1) 32%, rgba(246,246,246,1) 50%, rgba(178,181,246,1) 100%);
     background-attachment: fixed;
@@ -138,7 +137,6 @@ html{
 
 
 main{
-    width: 100vw;
     
 }
 
@@ -169,13 +167,12 @@ main{
 }
 
 .section-1{
-  width: 100vw;
   height: 100vh;
 }
 
 .inner{
     max-width: 74.75rem;
-    margin: 0px auto;
+    margin: auto auto;
 }
 
 .header{
@@ -439,7 +436,6 @@ li a{
 
 
 .section-2{
-    width: 100vw;
     background-color: #03077b71;
     height: ;
 }
